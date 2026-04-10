@@ -14,8 +14,8 @@ import requests
 import json
 import os
 
-CLIENT_ID = "77oeqow0pb7z9t"
-CLIENT_SECRET = "WPL_AP1.eGTdG8nvaSt112KE.eNRfQg=="
+CLIENT_ID = os.environ.get("LINKEDIN_CLIENT_ID", "")
+CLIENT_SECRET = os.environ.get("LINKEDIN_CLIENT_SECRET", "")
 REDIRECT_URI = "http://localhost:3000/callback"
 SCOPES = "openid profile w_member_social"
 TOKEN_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "token.json")

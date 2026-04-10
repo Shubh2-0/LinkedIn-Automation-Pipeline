@@ -56,7 +56,7 @@ def upload_pdf(token, user_id, pdf_path):
         headers={
             "Authorization": f"Bearer {token}",
             "Content-Type": "application/json",
-            "LinkedIn-Version": "202401",
+            "LinkedIn-Version": "202601",
             "X-Restli-Protocol-Version": "2.0.0",
         },
     )
@@ -79,7 +79,7 @@ def upload_pdf(token, user_id, pdf_path):
         headers={
             "Authorization": f"Bearer {token}",
             "Content-Type": "application/octet-stream",
-            "LinkedIn-Version": "202401",
+            "LinkedIn-Version": "202601",
         },
     )
 
@@ -118,7 +118,7 @@ def create_post(token, user_id, caption, document_urn, pdf_title):
         headers={
             "Authorization": f"Bearer {token}",
             "Content-Type": "application/json",
-            "LinkedIn-Version": "202401",
+            "LinkedIn-Version": "202601",
             "X-Restli-Protocol-Version": "2.0.0",
         },
     )

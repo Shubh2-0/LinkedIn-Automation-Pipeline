@@ -1,0 +1,36 @@
+name: LinkedIn Daily Post
+
+on:
+  schedule:
+    # Runs at 3:00 AM UTC = 8:30 AM IST
+    - cron: '0 3 * * 1-5'
+  workflow_dispatch: # Manual trigger for testing
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Post to LinkedIn
+        env:
+          LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
+        run: python post_to_linkedin.py
+
+      - name: Update schedule (mark as posted)
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add schedule.json
+          git diff --staged --quiet || git commit -m "Mark today's post as posted"
+          git push

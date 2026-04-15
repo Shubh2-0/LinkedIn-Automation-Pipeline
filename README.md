@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="Lnkedin_Banner.png" width="80%" height="80%" style="object-fit: cover; border-radius: 12px;"/>
+  <img src="banner.png" width="80%" height="80%" style="object-fit: cover; border-radius: 12px;"/>
   
   <br><br>
   

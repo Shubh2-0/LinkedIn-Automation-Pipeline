@@ -30,7 +30,7 @@
       "title": "10 Modern Java Tips — Write Like a Senior Developer",
       "pdf": "Day04_Java_Tips.pdf",
       "caption": "Write Java like a senior developer with these 10 tips.\n\nMost of these features exist since Java 9–21 but developers still don't use them.\n\nRecords, var, switch expressions — are you using these?\n\nDrop a comment if you knew all 10 👇\n\n#java #programming #softwareengineering #coding #javadeveloper",
-      "posted": false
+      "posted": true
     },
     {
       "day": 5,

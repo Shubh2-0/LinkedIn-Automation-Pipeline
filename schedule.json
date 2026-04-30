@@ -102,7 +102,7 @@
       "title": "Spring Boot vs Quarkus vs Micronaut — Honest Comparison",
       "pdf": "Day13_Spring_Boot_vs_Quarkus_vs_Micronaut.pdf",
       "caption": "Spring Boot vs Quarkus vs Micronaut — which one should you learn?\n\nI compared startup time, memory, ecosystem, developer experience, and job availability.\n\nThe answer might surprise you. Or maybe not.\n\nWhich framework are you betting on? 👇\n\n#springboot #java #microservices #backenddevelopment #programming",
-      "posted": false
+      "posted": true
     },
     {
       "day": 14,

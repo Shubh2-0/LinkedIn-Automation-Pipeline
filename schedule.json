@@ -110,7 +110,7 @@
       "title": "What Happens When You Call an API — Backend Perspective",
       "pdf": "Day14_What_Happens_When_You_Call_an_API.pdf",
       "caption": "You type a URL. JSON appears. But what actually happens in between?\n\nDNS → TCP → TLS → Load Balancer → Spring Boot → Hibernate → MySQL → JSON response.\n\nEvery backend dev should understand this end-to-end flow.\n\nWhich step was new to you? 👇\n\n#api #backenddevelopment #webdevelopment #programming #softwareengineering",
-      "posted": false
+      "posted": true
     },
     {
       "day": 15,

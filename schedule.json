@@ -118,7 +118,7 @@
       "title": "Design Patterns You Use in Spring Boot Without Knowing",
       "pdf": "Day15_Design_Patterns_Backend_Devs_Use_Without.pdf",
       "caption": "You're using 7 design patterns every day in Spring Boot — you just don't know their names.\n\nSingleton, Factory, Proxy, Observer, Strategy, Builder, Template Method — all hiding in your @Service and @Transactional annotations.\n\nWhich one surprised you? 👇\n\n#designpatterns #java #springboot #programming #softwareengineering",
-      "posted": false
+      "posted": true
     },
     {
       "day": 16,

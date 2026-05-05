@@ -126,7 +126,7 @@
       "title": "How Zomato Handles 1M Orders Per Day",
       "pdf": "Day16_How_Zomato_Handles_1M_Orders_Per_Day.pdf",
       "caption": "Zomato processes over 1 million orders every single day.\n\nMicroservices, Kafka, Redis caching, idempotent payments, real-time tracking — all broken down slide by slide.\n\nThese are the same patterns I use building enterprise microservices.\n\nSave this for your next system design interview 👇\n\n#systemdesign #microservices #backenddevelopment #softwareengineering #coding",
-      "posted": false
+      "posted": true
     },
     {
       "day": 17,
